@@ -16,9 +16,6 @@
                     "parameterFilePath": "5GC/ai_LS_5G/parameters/isolation/chf/I-CHF-1-CO_RegisterWithNrf.ffpt",
                     "requirements": [
                         {
-                            "name": "language",
-                            "value": "itest"
-                        }, {
 							"name":"agent_name",
 							"value":"qvo"
 						}
