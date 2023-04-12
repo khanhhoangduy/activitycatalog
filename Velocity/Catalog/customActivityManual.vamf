@@ -2,7 +2,7 @@
     "descriptionMarkdown": "customActivityManual.md",
     "icon": "demo.png",
     "name": "Sample activity for L5AP package",
-    "shortDescription": "Demo Activity with Automation configured",
+    "shortDescription": "Sample activity for L5AP package",
     "topology": [
         {
             "actionTitle": "Reserve",
