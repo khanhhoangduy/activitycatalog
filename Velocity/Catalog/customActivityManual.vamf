@@ -10,7 +10,7 @@
             "intervalToRunEndTestCase": "60",
             "name": "5GC-b2b-I-2TS",
             "reservationDuration": "60",
-            "startupTasks": [
+            "automation": [
                 {
                     "name": "A descriptive name for diagnostics only",
                     "parameterFilePath": "5GC/ai_LS_5G/parameters/isolation/chf/I-CHF-1-CO_RegisterWithNrf.ffpt",
