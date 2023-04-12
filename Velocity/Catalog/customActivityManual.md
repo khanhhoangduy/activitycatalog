@@ -1,14 +1,12 @@
-# Velocity reservation
+# Sample activity for L5AP package
 This activity allows users to easily reserve a simple topology:
-* SJC PC
-* SJC Server
+* 5GC_5GC_b2b_A_2TS.tbml
+* 5GC_5GC_b2b_B_2TS.tbml
 and start using it for testing purposes. 
 ## Instructions to create simple topology
 * Specify the required reservation duration and click the Reserve button.
 * A more complex topology would provide more instructions.
 ## Illustration of LaaS. Set width and height as required
-![Topology](/activity/demo.png=1000x750)
-## You may also set only the width as required, for example: ![Spirent Logo](img/spirent_logo.png=200x)
+![Topology](/activity/demo.png=760x760)
 
 ## Video Tutorial:
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/6-Gg2uXb39k/0.jpg)](https://www.youtube.com/watch?v=6-Gg2uXb39k)

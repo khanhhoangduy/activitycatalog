@@ -6,7 +6,7 @@
     "topology": [
         {
             "name": "5GC_5GC_b2b_B_2TS.tbml",
-            "addRepositoryNamePrefix": true,
+            "addRepositoryNamePrefix": false,
             "actionTitle": "Reserve",
             "description": "Topology with static defined automation assets only",
             "reservationDuration": "60",
@@ -18,7 +18,7 @@
         },
         {
             "name": "5GC_5GC_b2b_A_2TS.tbml",
-            "addRepositoryNamePrefix": true,
+            "addRepositoryNamePrefix": false,
             "actionTitle": "Reserve",
             "description": "Topology reservation with Startup/Teardown",
             "reservationDuration": "5",
