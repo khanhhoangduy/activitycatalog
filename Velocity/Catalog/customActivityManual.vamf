@@ -1,7 +1,7 @@
 {
     "descriptionMarkdown": "customActivityManual.md",
     "icon": "customActivityManual.svg",
-    "name": "Activity Demo",
+    "name": "Sample activity for L5AP package",
     "shortDescription": "Demo Activity with Automation configured",
     "topology": [
         {
@@ -26,12 +26,6 @@
                         {
                             "name": "os.type",
                             "value": "windows"
-                        }
-                    ],
-                    "teardownTasks": [
-                        {
-                        },
-                        {
                         }
                     ],
                     "testPath": "5GC/ai_LS_5G/testcases/isolation/chf/I-CHF-1-CO_RegisterWithNrf.fftc"
