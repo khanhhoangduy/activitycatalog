@@ -2,7 +2,7 @@
 This activity allows users to easily reserve a simple topology:
 * 5GC_5GC_b2b_A_2TS.tbml
 * 5GC_5GC_b2b_B_2TS.tbml
-and start using it for testing purposes. 
+
 ## Instructions to create simple topology
 * Specify the required reservation duration and click the Reserve button.
 * A more complex topology would provide more instructions.

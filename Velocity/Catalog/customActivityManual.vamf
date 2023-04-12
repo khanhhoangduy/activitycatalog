@@ -5,7 +5,7 @@
     "descriptionMarkdown": "customActivityManual.md",
     "topology": [
         {
-            "name": "5GC_5GC_b2b_B_2TS.tbml",
+            "name": "5GC_b2b_B_2TS.tbml",
             "addRepositoryNamePrefix": false,
             "actionTitle": "Reserve",
             "description": "Topology with static defined automation assets only",
@@ -17,7 +17,7 @@
             ]
         },
         {
-            "name": "5GC_5GC_b2b_A_2TS.tbml",
+            "name": "5GC_b2b_A_2TS.tbml",
             "addRepositoryNamePrefix": false,
             "actionTitle": "Reserve",
             "description": "Topology reservation with Startup/Teardown",
