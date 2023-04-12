@@ -12,7 +12,7 @@
             "reservationDuration": "60",
             "automation": [
                 {
-                    "name": "A descriptive name for diagnostics only",
+                    "name": "Run I-CHF-1-CO_RegisterWithNrf on embedded agent slc",
                     "parameterFilePath": "5GC/ai_LS_5G/parameters/isolation/chf/I-CHF-1-CO_RegisterWithNrf.ffpt",
                     "requirements": [
                         {
@@ -21,10 +21,43 @@
 						}
                     ],
                     "testPath": "5GC/ai_LS_5G/testcases/isolation/chf/I-CHF-1-CO_RegisterWithNrf.fftc"
+                },
+				{
+                    "name": "Run I-CHF-1-CO_RegisterWithNrf on random agent",
+                    "parameterFilePath": "5GC/ai_LS_5G/parameters/isolation/chf/I-CHF-1-CO_RegisterWithNrf.ffpt",
+                    "requirements": [
+                        {
+							"name":"language",
+							"value":"itest"
+						}
+                    ],
+                    "testPath": "5GC/ai_LS_5G/testcases/isolation/chf/I-CHF-1-CO_RegisterWithNrf.fftc"
                 }
             ],
             "topologyUrl": "library/topologies/4d63df0c-9def-4449-9e03-f41c3a2a30ab",
             "uuid": "4d63df0c-9def-4449-9e03-f41c3a2a30ab"
+        },
+		{
+            "actionTitle": "Reserve",
+            "description": "Reserve 5GC-b2b-F-2TS topology in L5AP package",
+            "intervalToRunEndTestCase": "180",
+            "name": "5GC-b2b-F-2TS",
+            "reservationDuration": "60",
+            "automation": [
+                {
+                    "name": "Run I-UPF-1-CO-N4_Association_Establishment.fftc on driver agent",
+                    "parameterFilePath": "5GC/ai_LS_5G/parameters/isolation/upf/I-UPF-1-CO-N4_Association_Establishment.ffpt",
+                    "requirements": [
+                        {
+							"name":"pool",
+							"value":"driver"
+						}
+                    ],
+                    "testPath": "5GC/ai_LS_5G/testcases/isolation/upf/I-UPF-1-CO-N4_Association_Establishment.fftc"
+                }
+            ],
+            "topologyUrl": "library/topologies/fff98bfe-402f-412b-bb5f-c751927cce1f",
+            "uuid": "fff98bfe-402f-412b-bb5f-c751927cce1f"
         }
     ]
 }
