@@ -1,44 +1,44 @@
 {
+    "descriptionMarkdown": "customActivityManual.md",
+    "icon": "customActivityManual.svg",
     "name": "Activity Demo",
     "shortDescription": "Demo Activity with Automation configured",
-    "icon": "customActivityManual.svg",
-    "descriptionMarkdown": "customActivityManual.md",
     "topology": [
         {
-            "name": "5GC_b2b_B_2TS",
-            "addRepositoryNamePrefix": false,
             "actionTitle": "Reserve",
-            "description": "Topology with static defined automation assets only",
+            "description": "Reserve this topology",
+            "intervalToRunEndTestCase": "120",
+            "name": "5GC-b2b-I-2TS",
             "reservationDuration": "60",
-            "automation": [
-                {
-                    
-                }
-            ]
-        },
-        {
-            "name": "5GC_b2b_A_2TS",
-            "addRepositoryNamePrefix": false,
-            "actionTitle": "Reserve",
-            "description": "Topology reservation with Startup/Teardown",
-            "reservationDuration": "5",
-            "intervalToRunEndTestCase": "60",
             "startupTasks": [
                 {
-                    
-                },
-                {
-                    
+                    "name": "A descriptive name for diagnostics only",
+                    "parameterFilePath": null,
+                    "parametersList": [
+                        {
+                            "description": "param1 optional description",
+                            "name": "param1",
+                            "type": "SECRET",
+                            "value": "param1 value"
+                        }
+                    ],
+                    "requirements": [
+                        {
+                            "name": "os.type",
+                            "value": "windows"
+                        }
+                    ],
+                    "teardownTasks": [
+                        {
+                        },
+                        {
+                        }
+                    ],
+                    "testPath": "5GC/ai_LS_5G/testcases/isolation/chf/I-CHF-1-CO_RegisterWithNrf.fftc"
                 }
             ],
-            "teardownTasks": [
-                {
-                    
-                },
-                {
-                    
-                }
-            ]
+            "topologyUrl": "library/topologies/4d63df0c-9def-4449-9e03-f41c3a2a30ab",
+            "uuid": "4d63df0c-9def-4449-9e03-f41c3a2a30ab"
         }
     ]
 }
