@@ -6,8 +6,8 @@
     "topology": [
         {
             "actionTitle": "Reserve",
-            "description": "Reserve this topology",
-            "intervalToRunEndTestCase": "60",
+            "description": "Reserve 5GC-b2b-I-2TS topology in L5AP package",
+            "intervalToRunEndTestCase": "180",
             "name": "5GC-b2b-I-2TS",
             "reservationDuration": "60",
             "automation": [
@@ -16,8 +16,8 @@
                     "parameterFilePath": "5GC/ai_LS_5G/parameters/isolation/chf/I-CHF-1-CO_RegisterWithNrf.ffpt",
                     "requirements": [
                         {
-							"name":"agent_name",
-							"value":"qvo"
+							"name":"pool",
+							"value":"slc"
 						}
                     ],
                     "testPath": "5GC/ai_LS_5G/testcases/isolation/chf/I-CHF-1-CO_RegisterWithNrf.fftc"
