@@ -1,6 +1,6 @@
 {
     "descriptionMarkdown": "customActivityManual.md",
-    "icon": "customActivityManual.svg",
+    "icon": "demo.png",
     "name": "Sample activity for L5AP package",
     "shortDescription": "Demo Activity with Automation configured",
     "topology": [
@@ -13,15 +13,7 @@
             "startupTasks": [
                 {
                     "name": "A descriptive name for diagnostics only",
-                    "parameterFilePath": null,
-                    "parametersList": [
-                        {
-                            "description": "param1 optional description",
-                            "name": "param1",
-                            "type": "SECRET",
-                            "value": "param1 value"
-                        }
-                    ],
+                    "parameterFilePath": "5GC/ai_LS_5G/parameters/isolation/chf/I-CHF-1-CO_RegisterWithNrf.ffpt",
                     "requirements": [
                         {
                             "name": "os.type",
@@ -29,6 +21,10 @@
                         }
                     ],
                     "testPath": "5GC/ai_LS_5G/testcases/isolation/chf/I-CHF-1-CO_RegisterWithNrf.fftc"
+                }
+            ],
+            "teardownTasks": [
+                {
                 }
             ],
             "topologyUrl": "library/topologies/4d63df0c-9def-4449-9e03-f41c3a2a30ab",
